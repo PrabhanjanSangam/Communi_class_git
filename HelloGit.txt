@@ -1,2 +1,3 @@
 Hello this is my 1st doc for github and will push via git
+1st trial to push failed idk gave wrong url.
 
