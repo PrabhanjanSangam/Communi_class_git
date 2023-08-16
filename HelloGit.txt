@@ -1,0 +1,2 @@
+Hello this is my 1st doc for github and will push via git
+
