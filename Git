@@ -1,3 +1,6 @@
+////#### git init : To initilise any foler with git ###////
+git branch -m <name> :give name for a branch.
+
 git status :this command shows all the files staged and unstaged.
 
 git add . : Adds the unstaged files to  staged.
@@ -26,10 +29,15 @@ git push origin branch_name(for me its master) : pushes the staged and commited 
 git remote -v ://check the path if there or not //
                //if not there add one, the command for this is// :git remote add origin <url of the repo>
       	       //if u already have a path and u want to change it then , follow the steps :
-	           
-if it is not ur <url> link path then purge it.
-git add remote origin <url>.git : will link it .
-if u want to change the origin then,
-	f
+	          git remote set-url origin <url of repo> : will put ur required path.
+		  git remote -v : to check ur path.
+
+git remote add origin/(any other name) <url of repo> :this sets the path for the folder to go to that repo.
+git remote set-url origin <url of repo> :this will set head on to this repo.
+ //while pushing push it to
+ git push origin/(ur given name) <branch_name>(can be master,main,truck.):w
+
+
+ 
 
 
