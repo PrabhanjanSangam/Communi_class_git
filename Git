@@ -1,0 +1,7 @@
+git status :this command shows all the files staged and unstaged.
+
+git add . : Adds the unstaged files to  staged.
+
+git commit -m " " : Add a comment .
+
+
