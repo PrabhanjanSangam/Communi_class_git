@@ -1,7 +1,35 @@
 git status :this command shows all the files staged and unstaged.
 
 git add . : Adds the unstaged files to  staged.
+git restore --staged file_name :This command will unstage the staged file.
 
-git commit -m " " : Add a comment .
+git commit -m " " : Add a comment . /////It is like taking a picture of staged files///////
+
+git log :history of the commits.
+///to remove the git log any step then,copy the commit below it so u can delete the above changes/////
+git reset copied_commit_address :this command will remove all the changes and brings back old ones.
+
+
+if u dont want to take photos of certain files but u need them in the same folder
+git stash : it will put files in backstage.
+git stash pop :it will get a files in frontstage.
+git stash clear :delete the backstage files
+
+
+///to attach the github url to the project///
+####if U have predone path in git hub:meaning no errors is got, when u follow the below commands #####
+git remote -v  ://The path shown alines with ur path choosen to place ur files,then continue //
+                //if the path does not aline,then follow other section steps//
+git push origin branch_name(for me its master) : pushes the staged and commited files to github.
+
+###if U dont have predone path in git hub :meaning u want to add a new or change path ,follow these commands below###
+git remote -v ://check the path if there or not //
+               //if not there add one, the command for this is// :git remote add origin <url of the repo>
+      	       //if u already have a path and u want to change it then , follow the steps :
+	           
+if it is not ur <url> link path then purge it.
+git add remote origin <url>.git : will link it .
+if u want to change the origin then,
+	f
 
 
