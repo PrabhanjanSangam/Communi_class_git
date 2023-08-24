@@ -37,7 +37,11 @@ git remote set-url origin <url of repo> :this will set head on to this repo.
  //while pushing push it to
  git push origin/(ur given name) <branch_name>(can be master,main,truck.):w
 
-
+SEE ON HOW TO CREATE A NEW BRANCH IN ANOTHER BRANCH AND DO MORE CONTRIBTIONS
+git branch <nameofBranch> :To add a new brach.
  
 
+git branch name: to create a branch
+git checkout <branch_name>:to put head on the branch
+after this push all the files to the checkout branch
 
